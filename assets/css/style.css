@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Class */
+.container {
+    display: grid;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.thirty{
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #E5E5E5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding: 2rem;
+}
+
