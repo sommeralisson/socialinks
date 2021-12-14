@@ -8,7 +8,7 @@
 /* Class */
 .container {
     display: grid;
-    gap: 3rem;
+    gap: 1rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -17,6 +17,55 @@
 .container.thirty{
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.container.second {
+    margin-top: 2rem;
+}
+
+.border-border {
+    position: absolute;
+    top: calc(100% - 205px);
+    left: calc(100% - 205px);
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    border: 18px solid white;
+}
+
+.container.second a {
+    display: inline-block;
+    text-decoration: none;
+    width: 15rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: 2px solid #BB99DD;
+}
+
+/* ID's */
+#user {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+p, a {
+    color: #BB99DD;
+}
+
+figure{
+    border-radius: 50%;
+    border: thick solid #BB99DD;
+    background-color: #aaa;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
 }
 
 body {
@@ -35,4 +84,3 @@ main {
     margin: auto;
     padding: 2rem;
 }
-
